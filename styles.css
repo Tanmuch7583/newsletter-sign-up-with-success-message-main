@@ -1,0 +1,74 @@
+@import url(https://fonts.google.com/specimen/Roboto);
+
+body{
+    background-color:hsl(235, 18%, 26%);
+    font-family: 'Roboto', serif;
+    color:hsl(234, 29%, 20%);
+    
+}
+
+.center {
+        background-color: white;
+        margin-top: 150px;
+        margin-bottom: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 600px;
+        border-radius: 0.825rem;
+        height: 400px;
+        font-size: 12px;
+        padding: 10px;
+
+}
+.center img{
+    width: 100%;
+    height: 380px;
+}
+
+.center5{
+    border-radius: 0.625rem;
+    height: 300px;
+}
+
+.center2{
+        background-color: white;
+        margin-top: 150px;
+        margin-bottom: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 380px;
+        border-radius: 0.925rem;
+        height: 380px;
+        font-size: 14px;
+        padding: 35px;
+        
+}
+
+
+ul{
+    list-style-image: url(./assets/images/icon-list.svg);
+    
+}
+.attribution {
+     font-size: 11px; 
+     text-align: center;
+ }
+
+.attribution a { 
+    color: hsl(0, 0%, 100%);
+}
+
+.form-label{
+    margin: 0px;
+}
+
+.btn{
+    background-color: hsl(234, 29%, 20%);
+    color:hsl(0, 0%, 100%);
+}
+.btn:hover{
+    background-color: hsl(4, 100%, 67%);
+    color:hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
